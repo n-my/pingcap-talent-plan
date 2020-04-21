@@ -1,0 +1,13 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+authors = ["nmy"]
+description = "A key-value store"
+edition = "2018"
+
+[dependencies]
+clap = {version = "2.33.0", features = ["yaml"]}
+
+[dev-dependencies]
+assert_cmd = "1.0.1"
+predicates = "1.0.4"
